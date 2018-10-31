@@ -1,0 +1,15 @@
+{
+	"extends": "tslint:recommended",
+	"rules": {
+		"indent": [
+			true,
+			"tabs"
+		],
+		"quotemark": [
+			true,
+			"single",
+			"jsx-double"
+		],
+		"no-unused-variable": true
+	}
+}
