@@ -19,13 +19,11 @@
   },
   "homepage": "https://github.com/Stef733/quick-boil#readme",
   "devDependencies": {
-    "@babel/core": "^7.1.2",
     "@types/enzyme": "^3.1.14",
     "@types/jest": "^23.3.9",
     "@types/node": "^10.12.2",
     "@types/webpack": "^4.4.17",
     "awesome-typescript-loader": "^5.2.1",
-    "babel-loader": "^8.0.4",
     "clean-webpack-plugin": "^0.1.19",
     "css-loader": "^1.0.1",
     "enzyme": "^3.7.0",
@@ -37,7 +35,6 @@
     "source-map-loader": "^0.2.4",
     "style-loader": "^0.23.1",
     "ts-jest": "^23.10.4",
-    "ts-loader": "^5.3.0",
     "ts-node": "^7.0.1",
     "tslint": "^5.11.0",
     "typescript": "^3.1.6",
@@ -54,6 +51,7 @@
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
     "react-redux": "^5.1.0",
+    "react-router-dom": "^4.3.1",
     "redux": "^4.0.1"
   },
   "sideEffects": [
