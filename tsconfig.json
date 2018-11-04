@@ -1,12 +1,16 @@
 {
   "compilerOptions": {
     "baseUrl": "./",
+    "lib": ["es6", "dom"],
     "paths": {
       "~components/*": ["src/components/*"],
       "~store/*": ["src/store/*"],
     },
     "jsx": "react",
     "types": [
+      "node",
+      "webpack",
+      "webpack-env",
       "jest"
     ],
   }

@@ -3,6 +3,8 @@ import { connect } from 'react-redux';
 import App from './App';
 import { setHydrate } from './actions';
 
+const AppContainer = props => <App />;
+
 const mapStateToProps = ({ hydrated }) => ({ hydrated });
 
 const mapDispatchToProps = dispatch => ({
@@ -12,4 +14,4 @@ const mapDispatchToProps = dispatch => ({
 	},
 });
 
-export default connect(mapStateToProps, mapDispatchToProps)(App);
+export default connect(mapStateToProps, mapDispatchToProps)(AppContainer);

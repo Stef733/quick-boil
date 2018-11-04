@@ -9,3 +9,7 @@ const $app = <Provider store={store}>
 </Provider>;
 
 render($app, document.getElementById('root'));
+
+if (module.hot) {
+	module.hot.accept();
+}
