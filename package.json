@@ -6,7 +6,8 @@
   "scripts": {
     "build": "webpack --config webpack/webpack.prod.js",
     "start": "node server.js",
-    "test": "jest --config jest/jest.config.js --env=jsdom"
+    "test": "jest --config jest/jest.config.js --env=jsdom",
+    "test:watch": "jest --config jest/jest.config.js --env=jsdom --watch"
   },
   "repository": {
     "type": "git",
