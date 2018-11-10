@@ -8,5 +8,5 @@ configure({ adapter: new Adapter() });
 it('renders', () => {
 	const wrapper = shallow(<App />);
 
-	expect(wrapper.text()).toContain('hello from React');
+	expect(wrapper.text()).toContain('helo from React');
 });
